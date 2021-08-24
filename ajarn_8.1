@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	float a,b,c;
+	printf("Enter 3 numbers : ");
+	scanf("%f %f %f", &a,&b,&c);
+	
+	if(a<b && a<c)
+	{
+		printf("The lowest number is %f (The first number)",a);
+	}
+	else if(b<a && b<c)
+	{
+		printf("The lowest number is %f (The second number)",b);
+	}
+	else if(c<a && c<b)
+	{
+		printf("The lowest number is %f (The third number)",c);
+	}
+	return 0;
+}
