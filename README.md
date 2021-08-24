@@ -1,0 +1,2 @@
+# ajarn_8.1
+FIND THE LOWEST NUMBER
